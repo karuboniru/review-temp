@@ -6,7 +6,7 @@ Should contain:
  - Whatever file your `config.json` references
 
 ## Port Export
- - In fact, depends on what port you use in your `config.json`
+ - In fact, depends on what port you use in your `config.json`, I suggest to specify trojan to listen on port `1080`.
 
 ## Usage case
 ### Server mode

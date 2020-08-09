@@ -19,8 +19,6 @@ EXPOSE 1080
 RUN dnf -y --setopt=tsflags=nodocs install trojan && \
     dnf clean all 
 
-COPY help.md /
-
 VOLUME ["/etc/trojan"]
 
 ENTRYPOINT ["/usr/bin/trojan"]
